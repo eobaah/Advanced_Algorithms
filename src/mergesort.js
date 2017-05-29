@@ -1,4 +1,8 @@
 export default function mergeSort(list){
+  if ( !Array.isArray( list ) ) {
+    throw new Error( 'invalid input' )
+  }
+
   if( list.length < 2 ){
     return list
   }

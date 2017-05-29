@@ -36,45 +36,25 @@ _However_, that doesn't mean that they have no learning value. They are still us
 
 ## Specifications
 
-- [ ] Artifact produced is a fork of the [core-algorithms][core-algorithms] repo.
-- [ ] Can run all tests with `npm test`.
-- [ ] `makeChange()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
-- [ ] Tests for `makeChange()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] `fizzBuzz()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
-- [ ] Tests for `fizzBuzz()` exist.
-- [ ] `isPalindrome()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
-- [ ] Tests for `isPalindrome()` exist with at least 2 unit tests using valid inputs.
-- [ ] `factorial()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
-- [ ] Tests for `factorial()` exist with at least 2 unit tests using valid inputs.
-- [ ] `fibonacci()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
-- [ ] Tests for `fibonacci()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] `collatzConjecture()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
-- [ ] Tests for `collatzConjecture()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] `setUnion()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
-- [ ] Tests for `setUnion()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] `setIntersection()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
-- [ ] Tests for `setIntersection()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] `setComplement()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
-- [ ] Tests for `setComplement()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] `setSymmetricDifference()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
-- [ ] Tests for `setSymmetricDifference()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] `binarySearch()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
-- [ ] Tests for `binarySearch()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] `bubbleSort()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
-- [ ] Tests for `bubbleSort()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] `mergeSort()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
-- [ ] Tests for `mergeSort()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] `closestPair()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
-- [ ] Tests for `closestPair()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [x] Artifact produced is a fork of the [core-algorithms][core-algorithms] repo.
+- [x] Can run all tests with `npm test`.
+- [x] `binarySearch()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
+- [x] Tests for `binarySearch()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [x] `bubbleSort()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
+- [x] Tests for `bubbleSort()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [x] `mergeSort()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
+- [x] Tests for `mergeSort()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [x] `closestPair()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
+- [x] Tests for `closestPair()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
 - [ ] `isConnectedGraph()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
 - [ ] Tests for `isConnectedGraph()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] Repository includes a README file with basic installation and setup instructions.
-- [ ] All package dependencies are properly declared in `package.json`.
-- [ ] All major features are added via pull requests with a clear description and concise commit messages.
-- [ ] Code uses a linter and there are no linting errors.
-- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
-- [ ] Functions are small and serve a single purpose.
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+- [x] Repository includes a README file with basic installation and setup instructions.
+- [x] All package dependencies are properly declared in `package.json`.
+- [x] All major features are added via pull requests with a clear description and concise commit messages.
+- [x] Code uses a linter and there are no linting errors.
+- [x] Variables, functions, files, etc. have appropriate and meaningful names.
+- [x] Functions are small and serve a single purpose.
+- [x] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ### Stretch
 

@@ -19,6 +19,13 @@ describe('bubbleSort', () => {
   })
 
   context('bubbleSort(arr, target)', () => {
+    it('Sorts the values from lowest to highest', () => {
+      const myList = [8, 6, 12, 4, 3]
+      expect(bubbleSort(myList)).to.eql([3, 4, 6, 8, 12])
+    })
+  })
+
+  context('bubbleSort(arr, target)', () => {
     it('If array has one value then return value', () => {
       const myList = [1]
       expect(bubbleSort(myList)).to.eql([1])

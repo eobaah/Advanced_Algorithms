@@ -4,6 +4,8 @@ import mergeSort from '../src/mergesort'
 
 chai.use(chaiChange)
 
+var describe, context, it
+
 describe('mergesort', () => {
   'use strict'
 
@@ -35,11 +37,9 @@ describe('mergesort', () => {
     })
   })
 
-  context('binarysearch(arr, target)', () => {
-    it('Retrieves no value.', () => {
-      const numbers = [5, 6, 7, 8, 9]
-
-      expect(binarysearch(numbers, 10)).to.equal(-1)
+  context('mergeSort(list)', () => {
+    it('Throws an error with invalid input.', () => {
+      expect( () => mergeSort(12)).to.throw('invalid input')
     })
   })
 
